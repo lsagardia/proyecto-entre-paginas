@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+header{ background-color: #6F1D1B;
+        color:#FFE6A7;
+        text-align: center;
+}
+header a {
+    color: #FFE6A7;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+    
