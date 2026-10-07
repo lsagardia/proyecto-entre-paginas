@@ -12,5 +12,25 @@ header a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+.container{
+/*display:grid;*/
+    display:flex;
+    flex-direction:row;
+    gap:24px;
 
-    
+}
+#contacto{
+   grid-area:3/1/4/2;
+}
+#libros{
+     grid-area:1/2/4/3;
+}
+@media(max-width:600px){
+
+    .container{flex-direction:column;}
+    #libros{
+    grid-area:auto;
+    }
+}
+
+
