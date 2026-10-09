@@ -17,6 +17,7 @@ header a {
     display:flex;
     flex-direction:row;
     gap:24px;
+    flex-wrap:wrap;
 
 }
 #contacto{
@@ -24,6 +25,50 @@ header a {
 }
 #libros{
      grid-area:1/2/4/3;
+}
+.boton-modo{
+    margin-top: 14px;
+    background-color: orange;
+    color:black;
+    border:none;
+    border-radius: 20px;
+    padding:18px 18px ;
+}
+/* ===== MODO NOCHE ===== */
+body.modo-noche {
+    background-color: #1a1a1a;
+    color: #f0e6d2;
+}
+
+body.modo-noche header {
+    background-color: #2c0e0d;
+    color: #FFE6A7;
+}
+
+body.modo-noche header a {
+    color: #FFE6A7;
+}
+
+body.modo-noche section {
+    background-color: #2a2a2a;
+    color: #f0e6d2;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+body.modo-noche footer {
+    background-color: #2c0e0d;
+    color: #FFE6A7;
+}
+
+body.modo-noche .boton-modo {
+    background-color: #FFE6A7;
+    color: #1a1a1a;
+}
+
+/* Transición suave para el cambio de tema */
+body, header, section, footer, .boton-modo {
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 @media(max-width:600px){
 
