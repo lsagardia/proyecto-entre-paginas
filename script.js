@@ -11,4 +11,9 @@ botonTema.addEventListener('click', () => {
     } else {
         botonTema.textContent = 'Modo Noche';
     }
+    });
+    const botonMenu = document.getElementById('btn-menu');
+     const menuNav = document.getElementById('menu-nav');
+     botonMenu.addEventListener('click', () => {
+    menuNav.classList.toggle('abierto');
 });
