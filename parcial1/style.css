@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#E64E8C ;
+}
+h1{
+    color:#E6C3CF;
+}
+h2{
+    color:#9E184C;
+}
+nav {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+section {
+    background-color:#E099B7;
+    padding: 20px;
+    border: 1px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.oculto {
+    display: none;
+}
+@media (max-width: 600px) {
+    nav {
+        display: block;
+    }
+    nav a {
+        display: block;
+    }
+}
