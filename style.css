@@ -115,6 +115,19 @@ body.modo-noche .boton-modo {
     margin-top: 10px;
     cursor: pointer;
 }
+.aviso{
+    display:none;
+    margin-top:14px;
+    font-weight: bold;
+}
+.aviso.error{
+    display:block;
+    color:#b3261e;
+}
+.aviso-exito{
+    display:block;
+    color:#1a7f4f;
+}
 
 @media(max-width:600px){
 
