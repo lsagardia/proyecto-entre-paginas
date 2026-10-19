@@ -4,7 +4,7 @@ body{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 1;
-    background-color: #FFF8E7;
+    background-color: hsl(42, 100%, 95%);
     color: #3E2723;
 
 }
@@ -79,12 +79,11 @@ footer {
 }
 
 body.modo-noche {
-    background-color: #1a1a1a;
-    color: #f0e6d2;
+    background-color: #1a1512;
 }
 
 body.modo-noche header {
-    background-color: #2c0e0d;
+    background-color: #2d2d2d;
     color: #FFE6A7;
 }
 
@@ -94,13 +93,13 @@ body.modo-noche header a {
 
 body.modo-noche section {
     background-color: #2a2a2a;
-    color: #f0e6d2;
+    color: #d5be91;
     padding: 15px;
     border-radius: 10px;
 }
 
 body.modo-noche footer {
-    background-color: #2c0e0d;
+    background-color: #2d2d2d;
     color: #FFE6A7;
 }
 
