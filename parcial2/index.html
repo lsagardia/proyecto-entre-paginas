@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Patitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <h1 class="header">Veterinaria Patitas</h1>
+        <p>El cuidado de tus animalitos es importante</p>
+       <!-- <button type="button" id="btn-tema" class="boton-modo">modo noche</button>-->
+    </header>
+    <div class="container">
+      <section id="contacto">
+       <h2>Contacto</h2>
+       <p>Escríbenos o visítanos. Te esperamos</p>
+        <!--<form id="form-contacto" method="POST" action="procesar.php"  novalidate>-->
+        <form id="form-turno" method="POST" action="procesar.php" novalidate>
+        <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="correo">Correo Electronico:</label>
+            <input type="email" id="correo" name="correo" required>
+            <label for="mascota">Contanos de tu mascota:</label>
+            <textarea id="mascota" name="mascota"></textarea>
+            <button type="submit">Reservar mi turno</button>
+            <p id="aviso-turno" class="aviso"></p>
+       </form>
+      </section>
+    </div>
+      <footer>
+        <p> Parcial 2 - Sagardia Serrudo Linn Ibeth - 20 de octubre de 2026</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>

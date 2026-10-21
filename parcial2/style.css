@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: #FFF8E7;
+    color: #3E2723;
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    gap:24px;
+    flex-wrap:wrap;
+    gap: 24px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 12px;
+}
+footer {
+    background-color: #6F1D1B;
+    color: #FFE6A7;
+    padding: 16px;
+    margin-top: 24px;
+}
+
+.aviso { display: none; }
+.aviso.error { display: block; color: #b00020; }
+.aviso.exito { display: block; color: #1b7f3b; }
